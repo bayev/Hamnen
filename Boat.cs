@@ -12,6 +12,7 @@ namespace ThePort
         public int MaxSpeed { get; set; }
         public int DockingsDays { get; set; }
         public string BoatType { get; set; }
+        public double BoatSize { get; set; }
     }
 
     class RowBoat : Boat
